@@ -16,4 +16,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('/todo', t);
+Route::get('/todo', test);
