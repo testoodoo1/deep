@@ -21,3 +21,7 @@ Route::get('hello', function () {
 
 
 Route::get('/todo' );
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
