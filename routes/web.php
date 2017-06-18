@@ -20,7 +20,7 @@ Route::get('hello', function () {
 
 
 
-Route::get('/todo' );
+Route::get('/todo', 'TodoController@index' );
 
 Auth::routes();
 

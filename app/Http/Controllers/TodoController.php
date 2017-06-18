@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class TodoController extends Controller
 {
     public function index() {
-    	var_dump("hello"); die;
+    	
 
     }
 }
