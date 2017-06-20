@@ -1,0 +1,5 @@
+<?php
+
+wget - www get
+
+?>
