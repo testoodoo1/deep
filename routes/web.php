@@ -21,6 +21,7 @@ Route::get('hello', function () {
 
 
 Route::get('/todo', 'TodoController@index' );
+Route::get('/index', 'TestController@index');
 
 Auth::routes();
 
