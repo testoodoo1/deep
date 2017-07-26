@@ -12,12 +12,11 @@
 */
 
 
+//nothing started
 
 Route::get('hello', function () {
     return "hello world";
 });
-
-
 
 
 Route::get('/todo', 'TodoController@index' );
@@ -28,3 +27,4 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 
+Route::post('/index', 'TodoController@getTicket')->name('hello');
